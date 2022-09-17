@@ -11,7 +11,7 @@ import AppProps from '../../../interfaces/props';
 
 
 
-export class StepFunctionStack extends Stack {
+export class lambdaStack extends Stack {
     public readonly CopyCommand:Function;
     public readonly Manifest:Function;
     constructor(scope: App, id: string, props: AppProps, layers: LayersStack){
